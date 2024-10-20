@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Timer</title>
+    <style>
+        body, html {
+            height: 100%;
+            text-align: center;
+        }
+        .watch {
+            font-size: 4rem;
+            color: darkslategray;
+        }
+        input {
+            width: 100px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body class="d-flex justify-content-center align-items-center">
+    <div>
+        <h4>Enter hours:</h4>
+        <input id="hours" class="form-control" type="number" placeholder="0">
+        <br>
+        <h4>Enter minutes:</h4>
+        <input id="minutes" class="form-control" type="number" placeholder="0">
+        <br>
+        <h4>Enter seconds:</h4>
+        <input id="seconds" class="form-control" type="number" placeholder="0">
+        <br>
+        <button id="submit_button" class="btn btn-dark">Submit</button>
+        <h1 class="watch mt-5"></h1>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="timer.js"></script>
+</html>

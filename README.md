@@ -1,0 +1,1 @@
+Timer, used the logic from my old sale timer project but addet input for hours, minutes and seconds.
